@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cdma.youth_traffic_safety_town_hall">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="youth_traffic_safety_town_hall"
         android:icon="@mipmap/ic_launcher">
