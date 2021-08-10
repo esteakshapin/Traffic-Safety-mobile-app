@@ -14,7 +14,7 @@ class IntroBanner extends StatelessWidget {
             height: 194,
             decoration: const BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage('images/Traffic-Safety-2021-Webinars.jpg'),
+                  image: AssetImage('images/logo.png'),
                   fit: BoxFit.fitWidth),
             )),
         const SizedBox(height: 16),

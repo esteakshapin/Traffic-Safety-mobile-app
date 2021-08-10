@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:youth_traffic_safety_town_hall/screens/home/widgets/bottom_nav.dart';
+import 'package:youth_traffic_safety_town_hall/screens/podcast/podcast.dart';
 
 import 'home_section.dart';
 
@@ -29,14 +30,8 @@ class _MyHomePageState extends State<MyHomePage> {
   TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
   static const List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Index 0: Home',
-      style: optionStyle,
-    ),
-    Text(
-      'Index 1: Business',
-      style: optionStyle,
-    ),
+    HomeSection(),
+    Podcast(),
     Text(
       'Index 2: School',
       style: optionStyle,
@@ -50,19 +45,6 @@ class _MyHomePageState extends State<MyHomePage> {
   void _onItemTapped(int index) {
     setState(() {
       selectedIndex = index;
-    });
-  }
-
-  int _counter = 0;
-
-  void incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
     });
   }
 
@@ -82,9 +64,9 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         backgroundColor: Colors.white,
-        body: const Padding(
-          padding: EdgeInsets.all(16.0),
-          child: HomeSection(),
+        body: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: _widgetOptions[selectedIndex],
         ),
         bottomNavigationBar: BottomNav(selectedIndex, _onItemTapped)
       ),

@@ -12,30 +12,23 @@ class HomeSection extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 8.0),
       child: ListView(
         shrinkWrap: true,
-        children: const <Widget>[
-          IntroBanner(),
-          SizedBox(height: 29),
+        children: <Widget>[
+          const IntroBanner(),
+          const SizedBox(height: 29),
           Text(
             'Videos',
             textAlign: TextAlign.left,
-            style: TextStyle(
-                color: Color.fromRGBO(0, 0, 0, 1),
-                fontFamily: 'Inter',
-                fontSize: 24,
-                letterSpacing:
-                    0 /*percentages not used in flutter. defaulting to zero*/,
-                fontWeight: FontWeight.normal,
-                height: 1),
+            style: GoogleFonts.inter(fontWeight: FontWeight.w600, fontSize: 24),
           ),
-          SizedBox(height: 29),
-          VideoCard(
+          const SizedBox(height: 29),
+          const VideoCard(
             videoLink: 'https://youtu.be/gDhtyvhz9JA',
             videoDate: 'August 5, 2021',
             videoTitle: 'NEW! About Youth Traffic Safety Town Hall',
             videoDescription: "www.CDMABusinessModel.com",
           ),
-          SizedBox(height: 29),
-          VideoCard(
+          const SizedBox(height: 29),
+          const VideoCard(
             videoLink: 'https://youtu.be/9CYsRfi_OpY',
             videoDate: 'July 27, 2020',
             videoTitle:
