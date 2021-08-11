@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class PodcastCard extends StatelessWidget {
   final String title;
@@ -14,6 +15,9 @@ class PodcastCard extends StatelessWidget {
       required this.description,
       required this.link})
       : super(key: key);
+
+  void _launchURL() async =>
+      await canLaunch(link) ? await launch(link) : throw 'Could not launch $link';
 
   @override
   Widget build(BuildContext context) {
@@ -60,7 +64,7 @@ class PodcastCard extends StatelessWidget {
                 foregroundColor:
                     MaterialStateProperty.all<Color>(Colors.deepPurple),
               ),
-              onPressed: () {},
+              onPressed: _launchURL,
               child: const Text('LISTEN NOW'),
             ),
             IconButton(

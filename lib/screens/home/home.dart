@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:youth_traffic_safety_town_hall/screens/apparel/apparel.dart';
 import 'package:youth_traffic_safety_town_hall/screens/home/widgets/bottom_nav.dart';
 import 'package:youth_traffic_safety_town_hall/screens/podcast/podcast.dart';
+import 'package:youth_traffic_safety_town_hall/screens/event/event.dart';
 
 import 'home_section.dart';
 
@@ -32,14 +34,8 @@ class _MyHomePageState extends State<MyHomePage> {
   static const List<Widget> _widgetOptions = <Widget>[
     HomeSection(),
     Podcast(),
-    Text(
-      'Index 2: School',
-      style: optionStyle,
-    ),
-    Text(
-      'Index 3: Settings',
-      style: optionStyle,
-    ),
+    Apparel(),
+    Event(),
   ];
 
   void _onItemTapped(int index) {

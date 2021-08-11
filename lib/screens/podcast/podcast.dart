@@ -37,6 +37,24 @@ class Podcast extends StatelessWidget {
             'https://podcasts.apple.com/us/podcast/stay-safe-summer-2021-driving-q-a-with-aaliyah/id1550283631?i=1000528308952',
           ),
           const SizedBox(height: 20),
+          const PodcastCard(
+            title:
+            'Youth Traffic Safety Town Hall Spotlight on Black Inventors',
+            date: 'July 8, 2021',
+            description:"",
+            link:
+            'https://podcasts.apple.com/us/podcast/youth-traffic-safety-town-hall-spotlight-on-black-inventors/id1550283631?i=1000528229280',
+          ),
+          const SizedBox(height: 20),
+          const PodcastCard(
+            title:
+            'Miss Sweeetz Seasoned Settlers & Pedal Pushaz Bicycle Experience Make Real World Connections',
+            date: 'February 27, 2021',
+            description:"In this episode, Honesty learned how Miss Sweeetz Seasoned Settlers & Pedal Pushaz Bicycle Experience Make Real World Connections! It's all about building community through positive initiatives such as joining forces with organizations throughout Ward 8 and beyond to serve and support Seniors and more! Beyond a traditional bicycling group, Pedal Pushaz is pushing the envelop as these youngsters are adamant about finding new ways to commute and travel in Ward 8 safely. Listen and be aware!  Seasoned Settlers are making it clear that they are here just visit http://seasonedsettlers.org and SHARE!",
+            link:
+            'https://podcasts.apple.com/us/podcast/miss-sweeetz-seasoned-settlers-pedal-pushaz-bicycle/id1550283631?i=1000510932267',
+          ),
+          const SizedBox(height: 20),
         ],
       ),
     );

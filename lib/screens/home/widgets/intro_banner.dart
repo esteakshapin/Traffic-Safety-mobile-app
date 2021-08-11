@@ -16,7 +16,7 @@ class IntroBanner extends StatelessWidget {
               image: DecorationImage(
                   image: AssetImage('images/logo.png'),
                   fit: BoxFit.fitWidth),
-            )),
+            ),),
         const SizedBox(height: 16),
         Text(
           'Who we are',
@@ -28,7 +28,7 @@ class IntroBanner extends StatelessWidget {
           decoration: const BoxDecoration(),
           padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 0),
           child: Text(
-            'Youth Traffic Safety Town Hall features Visual Arts Showcases to help young leaders make real world connections through Photography, Music, Fashion and Entrepreneurship. The goal is to creatively engage the Transportation Industry in ways that supports safe passage in Traffic Routes to Schools while addressing concerns proposed by all stakeholders in collaboration with organizations that are committed to youth leadership.Youth Traffic Safety Town Hall Podcast shares insight on how the transportation industry influence the daily lives of youth culture.',
+            'CDMA Business Model: Youth Traffic Safety Town Hall features Visual Arts Showcases to help young leaders make real world connections through Photography, Music, Fashion and Entrepreneurship. The goal is to creatively engage the Transportation Industry in ways that supports safe passage in Traffic Routes to Schools while addressing concerns proposed by all stakeholders in collaboration with organizations that are committed to youth leadership.Youth Traffic Safety Town Hall Podcast shares insight on how the transportation industry influence the daily lives of youth culture.',
             textAlign: TextAlign.left,
             style:
                 GoogleFonts.inter(fontWeight: FontWeight.normal, fontSize: 14),
