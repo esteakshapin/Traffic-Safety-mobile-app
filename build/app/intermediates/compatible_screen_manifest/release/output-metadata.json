@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "com.cdma.youth_traffic_safety_town_hall",
+  "variantName": "release",
+  "elements": []
+}

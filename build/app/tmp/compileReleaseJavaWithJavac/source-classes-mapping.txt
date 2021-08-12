@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/cdma/youth_traffic_safety_town_hall/BuildConfig.java
+ com.cdma.youth_traffic_safety_town_hall.BuildConfig
