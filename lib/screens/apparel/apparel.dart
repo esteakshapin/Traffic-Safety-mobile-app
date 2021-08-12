@@ -59,7 +59,7 @@ class Apparel extends StatelessWidget {
                   title: "Youth Traffic Safety Town Hall Reflective Safety Vest I High Visibility Safety Vests for Walking Reflective Vests for Skateboarding, Walking, Cycling I Kids Boys and Girls 6-12 Yrs I Schools",
                   price: "24.99",
                   imagePath:
-                  "images/Youth Traffic Safety Town Hall Reflective Safety Vest I High Visibility Safety Vests for Walking Reflective Vests for Skateboarding, Walking, Cycling I Kids Boys and Girls 6-12 Yrs I Schools.jpg",
+                  "images/school_vest.jpg",
                   link: 'https://www.amazon.com/Youth-Traffic-Safety-Town-Hall/dp/B08QY6N2PS?ref_=ast_sto_dp',
                 ),
                 ApparelCard(
